@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 开悟平台随代码包下发的框架代码（体积大，不随仓库分发）
+kaiwudrl/
+
+# 模型权重与训练产物
+ckpt/*
+!ckpt/.gitkeep
+*.pkl
+*.pt
+*.ckpt
+*.onnx
+*.log
+log/
+logs/
+events.out.tfevents.*
+
+# 编辑器 / 系统
+.idea/
+.DS_Store
+Thumbs.db
